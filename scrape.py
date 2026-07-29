@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 
 def main():
+
     url = "https://www.sanews.gov.za/"
 
     response = requests.get(url)
