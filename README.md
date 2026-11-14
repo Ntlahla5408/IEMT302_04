@@ -1,78 +1,76 @@
-# IEMT302_04# Second Repo Experiment - Beautiful Soup Web Scraping
+# South African News Headline Scraper
+
+A small Python web-scraping exercise that retrieves news headlines from the SAnews website and displays them in the terminal.
 
 ## Overview
 
-This project demonstrates how to use Python, Requests and Beautiful Soup to extract information from a website. The program retrieves the latest South African news headlines from the SAnews website and displays them in the terminal.
+This project demonstrates how to use Python, Requests and Beautiful Soup to retrieve and parse webpage content. It was completed as a learning exercise covering web scraping, Python environments, dependency management and Git/GitHub workflows.
 
 ## What I Learned
 
-During this exercise I learned several important concepts about Git, GitHub and Python development.
-
 ### Git and GitHub
 
-- How to create and manage a Git repository.
-- How to commit changes and push them to GitHub.
-- Why a `.gitignore` file is important for excluding virtual environments and unnecessary files.
-- How `requirements.txt` allows others to install the required Python packages quickly.
+- Creating and managing a Git repository.
+- Committing changes and pushing them to GitHub.
+- Using a `.gitignore` file to exclude virtual environments and unnecessary files.
+- Using `requirements.txt` to document project dependencies.
 
 ### Python Virtual Environments
 
-I learned how to create and activate a virtual environment using:
+Create and activate a virtual environment:
 
 ```bash
 py -m venv venv
 ```
 
-and install project dependencies using:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This keeps project dependencies isolated from other Python projects.
+A virtual environment keeps this project's dependencies separate from other Python projects.
 
 ### Web Scraping
 
-I learned how to:
+The exercise covers how to:
 
-- Send HTTP requests using the `requests` library.
-- Download the HTML of a webpage.
-- Parse HTML using Beautiful Soup.
-- Search HTML elements using methods such as `find_all()`.
-- Extract text from HTML tags.
+- Send HTTP requests with the `requests` library.
+- Retrieve a webpage's HTML.
+- Parse HTML with Beautiful Soup.
+- Find HTML elements and extract their text.
 
 ### Problem Solving
 
-While completing this project I encountered several issues including:
-
-- Missing Python packages.
-- Using the wrong Python interpreter.
-- Import errors.
-- Incorrect Beautiful Soup imports.
-- Incorrect Git repository structure.
-
-Working through these problems improved my understanding of debugging Python applications.
+During the exercise, I worked through issues involving missing packages, Python interpreter selection, import errors and repository structure. Resolving these issues strengthened my debugging and troubleshooting skills.
 
 ## Requirements
 
-Install the required packages.
+- Python
+- Requests
+- Beautiful Soup 4
+
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Running the Program
+## Run the Script
 
 ```bash
 py scrape.py
 ```
 
-The program downloads the latest South African news headlines and prints them to the console.
+The script retrieves South African news headlines from SAnews and prints them in the terminal.
 
 ## Technologies Used
 
 - Python
 - Requests
 - Beautiful Soup 4
-- Git
-- GitHub
+- Git and GitHub
+
+---
+
+*Academic learning exercise.*
